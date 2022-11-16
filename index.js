@@ -2,26 +2,26 @@ const app = require("express")();
 const server = require("http").createServer(app);
 const cors = require("cors");
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyB1x9Elszk2DEPrPOL_qgWrvKimQGbu4xE",
-  authDomain: "vdoprathameshvn.firebaseapp.com",
-  projectId: "vdoprathameshvn",
-  storageBucket: "vdoprathameshvn.appspot.com",
-  messagingSenderId: "706683806983",
-  appId: "1:706683806983:web:0d7c47922604a8e703d1a2",
-  measurementId: "G-1MGNNFS3TK"
-};
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyB1x9Elszk2DEPrPOL_qgWrvKimQGbu4xE",
+//   authDomain: "vdoprathameshvn.firebaseapp.com",
+//   projectId: "vdoprathameshvn",
+//   storageBucket: "vdoprathameshvn.appspot.com",
+//   messagingSenderId: "706683806983",
+//   appId: "1:706683806983:web:0d7c47922604a8e703d1a2",
+//   measurementId: "G-1MGNNFS3TK"
+// };
 
-// Initialize Firebase
-const vdoapp = initializeApp(firebaseConfig);
-const analytics = getAnalytics(vdoapp);
+// // Initialize Firebase
+// const vdoapp = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(vdoapp);
 
 
 
